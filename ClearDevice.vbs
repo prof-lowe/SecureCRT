@@ -1,22 +1,18 @@
 ﻿#$language = "VBScript"
 #$interface = "1.0"
 
-'##################################################
-'#                                                #
-'# Title: ClearDevice                             #
-'# Author: Josh Lowe (josh.lowe@ontariotechu.ca)  #
-'# Last Updated: Sept 26, 2023                    #
-'# Description: This script will quickly erase    #
-'# 		and reload a device (router or switch)    #
-'#		including deleting vlan.dat               #
-'#                                                #
-'# Inputs: None                                   #
-'# Outputs: None		                          #
-'# Instructions: Run this script from within      #
-'#		SecureCRT (Script>Run) or assign it to    #
-'#      a button on the button bar                #
-'#                                                #
-'##################################################
+' Title: ClearDevice
+' Author: Josh Lowe (josh.lowe@ontariotechu.ca)
+' Last Updated: Sept 26, 2023
+' Description: This script will quickly erase
+'              and reload a device (router or switch)
+'              including deleting vlan.dat
+'
+' Inputs: None
+' Outputs: None
+' Instructions: Run this script from within
+'               SecureCRT (Script>Run) or assign it to
+'               a button on the button bar
 
 crt.Screen.Synchronous = True
 
