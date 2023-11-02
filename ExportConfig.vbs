@@ -1,26 +1,22 @@
 # $language = "VBScript"
 # $interface = "1.0"
 
-'##################################################
-'#                                                #
-'# Title: ExportConfigs                           #
-'# Author: Josh Lowe (josh.lowe@ontariotechu.ca)  #
-'# Last Updated: Sept 26, 2023                    #
-'#                                                #
-'# Description: This script will quickly capture  #
-'# 		the output of 'show run brief' and save   #
-'#		the results in a text file                #
-'#                                                #
-'# Inputs: None                                   #
-'# Outputs: <tab_name>.txt                        #
-'# Instructions: Run this script from within      #
-'#		SecureCRT (Script>Run) or assign it to    #
-'#      a button on the button bar                #
-'#                                                #
-'# Note: the file is named using the name of the  #
-'#      active tab, so name your tab accordingly  #
-'#                                                #
-'##################################################
+' Title: ExportConfigs
+' Author: Josh Lowe (josh.lowe@ontariotechu.ca)
+' Last Updated: Sept 26, 2023
+'
+' Description: This script will quickly capture
+'              the output of 'show run brief' and save
+'              the results in a text file
+'
+' Inputs: None
+' Outputs: <tab_name>.txt
+' Instructions: Run this script from within
+'               SecureCRT (Script>Run) or assign it to
+'               a button on the button bar
+'
+' Note: the file is named using the name of the
+'       active tab, so name your tab accordingly
 
 Sub Main
 
