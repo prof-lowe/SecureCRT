@@ -24,7 +24,7 @@ Sub Main
 
     ' Prompt for the folder where the log file should be created
     Set objShell  = CreateObject( "Shell.Application" )
-    Set objFolder = objShell.BrowseForFolder( 0, "Select Folder", 0, "c:\users\joshu\OneDrive\Documents" )
+    Set objFolder = objShell.BrowseForFolder( 0, "Select Folder", 0)
 
     ' Set the filename to be the path chosen earlier plus the name of the tab
     Set thisTab = crt.GetScriptTab()
