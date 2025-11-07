@@ -10,7 +10,7 @@ Also, ensure that the "Highlight Style" setting is set to "Color" and the "Match
 ### Usage
 To add the Keyword Highlights in SecureCRT, first download the .ini file and save it in the Keywords folder in your SecureCRT Settings folder. If you're not sure where your SecureCRT settings are stored, in SecureCRT open the **Options** menu and choose **Global Options...**. Under the **General** menu item, select **Configuration Paths** to see the location of your SecureCRT settings.
 
-Once you've saved the .ini file in the appropriate folder, you can go to **Options** > **Edit Default Session...** then under **Terminal** choose **Keyword Highlighting** to see the appropriate settings. From the **List name** dropdown menu at the top of the screen, chose the .ini file that you just downloaded, and click **OK**. If you already have saved sessions in SecureCRT, you might be prompted to apply the Keyword Highlights to those saved sessions as well.
+Once you've saved the .ini file in the appropriate folder, you can go to **Options** > **Configure** > **Default Session...** then under **Terminal** choose **Keyword Highlighting** to see the appropriate settings. From the **List name** dropdown menu at the top of the screen, chose the .ini file that you just downloaded. Now click on the **Advanced** option in the settings navigation, then *uncheck* **Reverse video** and *check* **Color**, then click **OK**. If you already have saved sessions in SecureCRT, you might be prompted to apply the Keyword Highlights to those saved sessions as well.
 
 ## Scripts
 ### ClearDevice
