@@ -19,6 +19,9 @@ This script can be run from within SecureCRT to erase a device (router or switch
 ### ExportConfig
 This script can be run from within SecureCRT to capture the output of the command `show run brief`. When run, the script will prompt you for a location where you want to save the file. It then captures the running configuration of the device and saves it to your selected location. The name of the file will be `<tabname>.txt`, where `<tabname>` is the name of the SecureCRT tab that was active at the time you ran the script. If you want your file names to be useful, be sure to name your tabs appropriately (e.g., R1, R2, R3, etc.)
 
+### RenameTab
+This script can be run from within SecureCRT to rename the current tab to match the hostname of the device you are connected to. It works by reading the current CLI prompt and extracting the hostname from it.
+
 ### Usage
 SecureCRT scripts can technically be saved anywhere on your computer, although having a dedicated folder for them is probably best. To run either of the scripts you can choose **Script** > **Run...** and select the script from the location where you saved it. 
 
